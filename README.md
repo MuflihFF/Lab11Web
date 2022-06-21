@@ -1,6 +1,8 @@
 <p><b>Nama : Muflih Furqonudin Fahri
 <p> NIM : 312010105
-<p> Kelas : TI.20.D.1
+<p> Kelas : TI.20.D.1 </b>
+  
+<b> <h1> Pertemuan 12 (Praktikum 11) </h1>
 <p> Pertanyaan dan Tugas </b>
 <p> Lengkapi kode program untuk menu lainnya yang ada pada Controller Page, sehingga semua link pada navigasi header dapat menampilkan tampilan dengan layout yang sama.
 
@@ -28,8 +30,9 @@
 ![22](https://user-images.githubusercontent.com/101880025/172698218-ca943ac0-83d2-4852-9a9b-d913587f1b37.png)
 ![23](https://user-images.githubusercontent.com/101880025/172698221-112b4cea-ee16-4c55-8667-f1fc1711e3bb.png)
 ![24](https://user-images.githubusercontent.com/101880025/172698226-3d004d6f-5dd1-4ac1-8bbb-e18ef1077937.png)
-<h2> Pertemuan 13 </h2>
-<p> Pertanyaan dan Tugas
+
+<b><h2> Pertemuan 13 (Praktikum 12) </h2>
+<p> Pertanyaan dan Tugas</b>
 <p> Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan
 improvisasi.
 <p> Langkah - langkah
@@ -100,3 +103,58 @@ improvisasi.
 <p> 18. Tambahkan fungsi/method baru pada Controller Artikel dengan nama delete().
 
 ![23](https://user-images.githubusercontent.com/101880025/174358618-80f784e4-819c-405d-9139-21014d236b8d.png)
+
+<b><h3> Pertemuan 14 (Praktikum 13) </h3>
+<p> Pertanyaan dan Tugas</b>
+<p> Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan
+improvisasi.
+
+1.  Membuat Tabel: User Login
+  
+![1](https://user-images.githubusercontent.com/101880025/174848459-6dd549fc-3384-4445-b478-82481177ee47.png)
+  
+2.  Membuat Model User
+  
+![2](https://user-images.githubusercontent.com/101880025/174848762-dfb76174-75c5-4773-b357-6ae285e77725.png)
+
+3.  Membuat Controller User
+  
+![3](https://user-images.githubusercontent.com/101880025/174848888-f822bf59-27d4-43b6-9bfc-e846c0c99a72.png)
+![4](https://user-images.githubusercontent.com/101880025/174848895-5105a383-b5bd-47db-9bed-bc17f211a16a.png)
+
+4.  Membuat View Login
+
+![5](https://user-images.githubusercontent.com/101880025/174849017-48218c31-fd0a-49cd-bc32-19ede214f64b.png)
+  
+5.  Membuat Database Seeder menggunakan CLI
+
+![6](https://user-images.githubusercontent.com/101880025/174849155-250792a6-7818-4139-844b-7ebe3954360b.png)
+  
+6.  buka file UserSeeder.php yang berada di lokasi direktori /app/Database/Seeds/UserSeeder.php kemudian isi dengan kode berikut:
+
+![7](https://user-images.githubusercontent.com/101880025/174849322-0dda73af-462b-4122-8591-1bdf76dde917.png)
+  
+7.  Selanjutnya buka kembali CLI dan ketik perintah berikut:
+  
+![8](https://user-images.githubusercontent.com/101880025/174849431-b47905f4-5786-46b4-96c5-36fdbd25b368.png)
+
+8.  Simpan dan buka pada browser dengan url :http://localhost:8080/user/login 
+
+![9](https://user-images.githubusercontent.com/101880025/174849614-811049a3-64c9-42c7-8416-abcd76f2514b.png)
+
+9.  Menambahkan Auth Filter
+ 
+![10](https://user-images.githubusercontent.com/101880025/174849762-a65c9479-034a-4edb-b7cb-fc5c82fc29dc.png)
+
+10. Selanjutnya buka file app/Config/Filters.php tambahkan kode berikut:
+  
+![11](https://user-images.githubusercontent.com/101880025/174849963-9ae04343-e4dc-4302-b0cf-4bd1fe45e9af.png)
+
+11. Selanjutnya buka file app/Config/Routes.php dan sesuaikan kodenya.
+  
+![12](https://user-images.githubusercontent.com/101880025/174850011-36e8590a-e018-4954-a9b0-9763126745a4.png)
+  
+12. Simpan dan buka pada browser dengan url :http://localhost:8080/user/login
+ 
+![13](https://user-images.githubusercontent.com/101880025/174850139-ea34695e-c5dd-4e5d-a05d-c4fd8f767016.png)
+
