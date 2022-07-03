@@ -158,3 +158,41 @@ improvisasi.
  
 ![13](https://user-images.githubusercontent.com/101880025/174850139-ea34695e-c5dd-4e5d-a05d-c4fd8f767016.png)
 
+<b><h3> Pertemuan 15 (Praktikum 14) </h3>
+<p> Pertanyaan dan Tugas</b>
+<p> Selesaikan programnya sesuai Langkah-langkah yang ada. Anda boleh melakukan improvisasi.
+1. Untuk membuat pagination, buka Kembali Controller Artikel, kemudian modifikasi kode pada method admin_index seperti berikut.
+
+![1](https://user-images.githubusercontent.com/101880025/177030576-539c2d27-68e6-4e5b-a028-11cdedfe4e00.png)
+2. Kemudian buka file views/artikel/admin_index.php dan tambahkan kode berikut dibawah deklarasi tabel data
+
+![2](https://user-images.githubusercontent.com/101880025/177030586-da87a3a8-7648-470d-bdef-a42d874ec251.png)
+3. Kemudian simpan dan buka [ada browser dengan url http://localhost:8080/index.php/admin/artikel
+
+![3](https://user-images.githubusercontent.com/101880025/177030591-56861afb-3a4f-49b7-8b35-48efdc69e02f.png)
+4. <b> Membuat Pencarian </b>
+Pencarian data digunakan untuk memfilter data. Untuk membuat pencarian data, buka kembali Controller Artikel, pada method admin_index ubah kodenya seperti berikut
+
+![4](https://user-images.githubusercontent.com/101880025/177030596-2dcc94e7-f867-42f4-9e89-ce25433cb922.png)
+5. Kemudian buka kembali file views/artikel/admin_index.php dan tambahkan form pencarian sebelum deklarasi tabel seperti berikut:
+
+![5](https://user-images.githubusercontent.com/101880025/177030599-7d7abfaf-3299-4826-9371-8a23b7dae37c.png)
+6. Dan pada link pager ubah seperti berikut
+
+![6](https://user-images.githubusercontent.com/101880025/177030603-dfd3bfaa-2228-4635-8077-ac399b0d811f.png)
+7. Kemudian simpan dan buka kembali dengan url http://localhost:8080/admin/artikel
+
+![7](https://user-images.githubusercontent.com/101880025/177030607-8f845b28-ca47-4256-bea4-ce14caf99e87.png)
+8. <b> Upload Gambar </b>
+Menambahkan fungsi unggah gambar pada tambah artikel. Buka kembali Controller Artikel, sesuaikan kode pada method add seperti berikut:
+
+![8](https://user-images.githubusercontent.com/101880025/177030615-450d3f98-7f2d-4964-8519-613d3733f0c6.png)
+9. Kemudian pada file views/artikel/form_add.php tambahkan field input file seperti berikut.
+
+![9](https://user-images.githubusercontent.com/101880025/177030619-2283cc5f-84bc-4aa1-8f00-441851750f02.png)
+10. Dan sesuaikan tag form dengan menambahkan ecrypt type seperti berikut.
+
+![10](https://user-images.githubusercontent.com/101880025/177030628-0ba0dc0b-3f96-4134-85fb-eb018b194db8.png)
+11. Kemudian simpan dan buka kembali browser dengan url http://localhost:8080/admin/artikel/add
+
+![11](https://user-images.githubusercontent.com/101880025/177030637-ca0d9f92-70f0-4d6e-960e-f8df896a34c2.png)
